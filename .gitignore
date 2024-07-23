@@ -3,6 +3,7 @@ node_modules/
 dist/
 html-report/
 coverage/
+http/playground/
 
 #files
 .env
