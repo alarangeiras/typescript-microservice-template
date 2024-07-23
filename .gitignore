@@ -1,0 +1,9 @@
+#folders
+node_modules/
+dist/
+html-report/
+coverage/
+
+#files
+.env
+*.log
