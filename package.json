@@ -14,8 +14,8 @@
     "test:it": "NODE_ENV=dev jest --coverage ./specs",
     "prepare": "husky",
     "migration:create": "sequelize-cli migration:create --migrations-path ./migrations --name ",
-    "migration:run": "npm run build && npx dotenv-cli -e .env -- sequelize-cli db:migrate --migrations-path ./dist/migrations",
-    "migration:undo": "npm run build && npx dotenv-cli -e .env -- sequelize-cli db:migrate:undo --migrations-path ./dist/migrations"
+    "migration:run": "npm run build && NODE_OPTIONS='--import=tsx' npx dotenv-cli -e .env -- sequelize-cli db:migrate --migrations-path ./dist/migrations",
+    "migration:undo": "npm run build && NODE_OPTIONS='--import=tsx' npx dotenv-cli -e .env -- sequelize-cli db:migrate:undo --migrations-path ./dist/migrations"
   },
   "author": "Allan Larangeiras",
   "devDependencies": {

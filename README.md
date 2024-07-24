@@ -10,7 +10,7 @@
 
 3 - Install the [biome vscode extension](https://marketplace.visualstudio.com/items?itemName=biomejs.biome). This repository uses the [biomejs](https://biomejs.dev/) to format and lint the source code
 
-4 - Run the app using the following line
+4 - Run the app using the following lines
 > npm run dev
 
 ## General instructions
